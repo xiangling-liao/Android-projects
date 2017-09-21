@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">150dp</dimen>
+    <dimen name="list_item_width">100dp</dimen>
+    <dimen name="activity_horizontal_margin">50dp</dimen>
+    <dimen name="name_description_width">150dp</dimen>
+    <dimen name="address_width">100dp</dimen>
+</resources>

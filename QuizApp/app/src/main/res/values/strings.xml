@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question_1">1. What is the home for a Chinese tea ” Tieguanyin” ?</string>
+    <string name="question_1_a">Zhejiang Province</string>
+    <string name="question_1_b">Fujian Province</string>
+    <string name="question_1_c">Jiangxi Province</string>
+    <string name="question_1_d">Guangzhou Province</string>
+    <string name="question_2">2. In which country does Crop Circle  appear  mostly?</string>
+    <string name="question_2_a">UK</string>
+    <string name="question_2_b">USA</string>
+    <string name="question_2_c">France</string>
+    <string name="question_2_d">China</string>
+    <string name="question_3">3. Accroding to given pictures, you need to find the right shape for \"? \" block</string>
+    <string name="question_4">4. Which of the following sentences are written by famous poet Rabindranath Tagore?</string>
+    <string name="question_4_a">"Rest belongs to the work as the eyelids to the eyes."</string>
+    <string name="question_4_b">"Man does not reveal himself in his history， he struggles up through it."</string>
+    <string name="question_4_c">"The furthest distance in the world，Is not between life and death. But when I stand in front of you，Yet you don't know that I love you."</string>
+    <string name="question_4_d">"There is nothing either good or bad, but thinking makes it so "</string>
+    <string name="question_5">5. Eleven scientists are working on a secret project. They wish to lock up the documents in a cabinet so that the cabinet can be opened if and only if six or more of the scientists are present. What is the smallest number of locks needed? </string>
+<string name="hint_for_question_5">Hint:Please input number 0-1000</string>
+    <string name="submitAnswer">Submit Your Answer</string>
+    <string name="firstQuestionResult">The first question is: </string>
+    <string name="secondQuestionResult">The second question is: </string>
+    <string name="thirdQuestionResult">The third question is: </string>
+    <string name="fourthQuestionResult">The fourth question is: </string>
+    <string name="fifthQuestionResult">The fifth question is: </string>
+    <string name="finalpoints">Total points:  </string>
+    <string name="rule">Answer the following questions. [1 point/question] </string>
+</resources>

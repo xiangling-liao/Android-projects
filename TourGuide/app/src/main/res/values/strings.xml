@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="category_restaurants">Restaurant</string>
+    <string name="category_festivals">Festival</string>
+    <string name="category_galleries">Gallery</string>
+    <string name="category_landmarks">Landmark</string>
+
+    <!-- attributes for festivals -->
+    <string name="festival_name_blood_ties">Blood Ties</string>
+    <string name="festival_name_focus_on_gerrad">Focus on Gerrard Photography Exhibition</string>
+    <string name="festival_name_toronto_light">Toronto Light Festival</string>
+    <string name="festival_name_winter_station">Winter Stations 2017</string>
+
+    <string name="festival_contactInfo_blood_ties">(416)849-2864</string>
+    <string name="festival_contactInfo_focus_on_gerrad">info.6ixclicks@gmail.com</string>
+    <string name="festival_contactInfo_toronto_light">kathleen@torchiacom.com</string>
+    <string name="festival_contactInfo_winter_station">info@winterstations.com</string>
+
+    <string name="festival_location_blood_ties">Xpace Cultural Centre \n 303 Lansdowne Ave</string>
+    <string name="festival_location_focus_on_gerrad">Riverdale Gallery\n1326 Gerrard St E</string>
+    <string name="festival_location_toronto_light">The Distillery Historic District\n55 Mill St</string>
+    <string name="festival_location_winter_station">The Beaches - From Woodbine to Victoria Park along the Waterfront</string>
+
+    <string name="festival_description_blood_ties">Blood Ties is an art exhibition exploring the spiritual and material bonds that shape familial histories and intimacies. The featured artists explore the contemporary family \“unit,\" ancestral memories and colonial legacies.</string>
+    <string name="festival_description_focus_on_gerrad">This exhibition was produced in conjunction with the Myseum Intersections Festival. This annual festival of exhibits and events showcases different perspectives of Toronto\'s natural,cultural,and historic diversity.</string>
+    <string name="festival_description_toronto_light">Visitors will be taken on a new visual journey and cerebral adventure, designed to entertain and inspire. The Festival will transform the picturesque historic neighbourhood into one of the largest open-air galleries in North America, lighting up the long winter nights with distinctive works from local and international light artists.</string>
+    <string name="festival_description_winter_station">The theme for Winter Stations\’ third year is Catalyst. In 2017, this seems especially fitting in this time of international political, social and cultural search for a better way forward.</string>
+
+    <string name="festival_openHour_blood_ties">Every Wednesday February 17, 2017 - March 24, 2017\n12:00 pm - 6:00 pm</string>
+    <string name="festival_openHour_focus_on_gerrad">Every Wednesday March 1, 2017 - March 31, 2017\n9:00 am - 5:00 pm</string>
+    <string name="festival_openHour_toronto_light">January 27, 2017 - March 12, 2017\nSunday-Wednesday, sundown to 10 pm\nThursday-Saturday, sundown to 11 pm</string>
+    <string name="festival_openHour_winter_station">February 20, 2017 - March 27, 2017</string>
+
+    <!-- attributes for galleries -->
+    <string name="galleries_name_ago">Art Gallery of Ontario</string>
+    <string name="galleries_name_art_museum_at_ut">University of Toronto Art Centre</string>
+    <string name="galleries_name_museum_of_contemporary_art">Museum of Contemporary Art</string>
+    <string name="galleries_name_power_plant">The Power Plant Contemporary Art Gallery</string>
+
+    <string name="galleries_contactInfo_ago">(877)225-4246\n(416)979-6648</string>
+    <string name="galleries_contactInfo_art_museum_at_ut">(416)978-8398</string>
+    <string name="galleries_contactInfo_museum_of_contemporary_art">(416)395-0067</string>
+    <string name="galleries_contactInfo_power_plant">(416)973-4949</string>
+
+    <string name="galleries_location_ago">317 Dundas Street West\nToronto, Ontario, Canada\nM5T 1G4</string>
+    <string name="galleries_location_art_museum_at_ut">15 King\'s College Circle</string>
+    <string name="galleries_location_museum_of_contemporary_art">80 Ward Street, Unit 99\nToronto, Ontario\nM6H 4A6</string>
+    <string name="galleries_location_power_plant">231 Queens Quay West\nToronto, Ontario\nM5J 2G8</string>
+
+    <string name="galleries_description_ago">With a collection of more than 90,000 works of art, the Art Gallery of Ontario is among the most distinguished art museums in North America.</string>
+    <string name="galleries_description_art_museum_at_ut">Housed in University College, a splendid Romanesque revival building,  UTAC\’s exhibitions embrace a range of media, art forms and time periods. They offer an engaging gallery experience complemented by tours, lectures and symposia featuring internationally renowned artists, writers and academics.</string>
+    <string name="galleries_description_museum_of_contemporary_art">A variety of original and thought-provoking exhibitions, promoting innovative art by Canadian and international artists. Projected to open in the Lower Junction neighbourhood in 2017.</string>
+    <string name="galleries_description_power_plant">The Power Plant Contemporary Art Gallery is part of the Harbourfront Centre and is Canada、’s leading public gallery devoted exclusively to contemporary visual art.</string>
+
+    <string name="galleries_openHour_ago">10:30 am – 9:00pm</string>
+    <string name="galleries_openHour_art_museum_at_ut">Weekdays 12:00pm–5:00 pm</string>
+    <string name="galleries_openHour_museum_of_contemporary_art">11:00am-6:00pm</string>
+    <string name="galleries_openHour_power_plant">10:00am -8:00PM</string>
+
+
+    <!-- attributes for landmarks -->
+    <string name="landmarks_name_cn_tower">CN Tower</string>
+    <string name="landmarks_name_evergrenn">Evergreen Brick Works</string>
+    <string name="landmarks_name_old_city_hall">Old City Hall</string>
+    <string name="landmarks_name_osgood_hall">Osgoode Hall</string>
+
+    <string name="landmarks_contactInfo_cn_tower">(416)863-6006</string>
+    <string name="landmarks_contactInfo_evergrenn">(416)596-1495</string>
+    <string name="landmarks_contactInfo_old_city_hall">(416)338-0338</string>
+    <string name="landmarks_contactInfo_osgood_hall">Toll free: 1-800-668-7380 </string>
+
+    <string name="landmarks_location_cn_tower">301 Front St. W</string>
+    <string name="landmarks_location_evergrenn">550 Bayview Ave</string>
+    <string name="landmarks_location_old_city_hall">60 Queen St. W</string>
+    <string name="landmarks_location_osgood_hall">130 Queen St. W</string>
+
+    <string name="landmarks_description_cn_tower">Defining the Toronto skyline, at a height of 553.33m (1,815 ft., 5 inches), the CN Tower is Canada\'s National Tower, an engineering Wonder of the World and Toronto\'s must see attraction visited by almost 2 million people each year.</string>
+    <string name="landmarks_description_evergrenn">A former brick-making factory, the Evergreen Brick Works is now an environmental community centre located in the Lower Don Ravines. There are activities for the whole family including guided hikes, a year-round farmers market, and skating trail in the winter.</string>
+    <string name="landmarks_description_old_city_hall">Old City Hall is Toronto\'s third City Hall and a showplace of history and exquisite craftsmanship.  Old City Hall is currently a working courthouse therefore scheduled tours are not available.</string>
+    <string name="landmarks_description_osgood_hall">Osgoode Hall is a landmark building in downtown Toronto constructed between 1829 and 1832 in the late Georgian Palladian and Neoclassical styles. It houses the Ontario Court of Appeal, the Divisional Court of the Superior Court of Justice, and the Law Society of Upper Canada.</string>
+
+    <string name="landmarks_openHour_cn_tower">11:00am-02:15pm\n4:30pm-10:15pm</string>
+    <string name="landmarks_openHour_evergrenn">All Day</string>
+    <string name="landmarks_openHour_old_city_hall">08:30am-4:30pm</string>
+    <string name="landmarks_openHour_osgood_hall">8:30am-5:00pm</string>
+
+    <!-- attributes for restaurants -->
+    <string name="restaurant_name_alo">Alo Restaurant</string>
+    <string name="restaurant_name_byblo">Byblos</string>
+    <string name="restaurant_name_george">George</string>
+    <string name="restaurant_name_richmond_station">Richmond Station</string>
+
+    <string name="restaurant_contactInfo_alo">(416)260-2222</string>
+    <string name="restaurant_contactInfo_byblo">(647)660-0909</string>
+    <string name="restaurant_contactInfo_george">(416)863-6006</string>
+    <string name="restaurant_contactInfo_richmond_station">(647)748-1444</string>
+
+    <string name="restaurant_location_alo">163 Spadina Avenue\n3rd Floor\nToronto, ON M5V 2A5</string>
+    <string name="restaurant_location_byblo">11 Duncan Street\nToronto, ON M5V 3M2\nEntertainment District,Downtown Core</string>
+    <string name="restaurant_location_george">111 Queen Street E\nToronto, ON M5C 1S2\nCorktown, Downtown Core</string>
+    <string name="restaurant_location_richmond_station">1 Richmond Street W\nToronto, ON M5H 3W4\nDowntown Core</string>
+
+    <string name="restaurant_description_alo">Bars, French</string>
+    <string name="restaurant_description_byblo">Mediterranean, Middle Eastern</string>
+    <string name="restaurant_description_george">Canadian (New)</string>
+    <string name="restaurant_description_richmond_station">Canadian (New)</string>
+
+    <string name="restaurant_openHour_alo">5:00 pm - 12:45 am</string>
+    <string name="restaurant_openHour_byblo">5:00 pm - 10:00 pm</string>
+    <string name="restaurant_openHour_george">12:00 pm-2:30 pm</string>
+    <string name="restaurant_openHour_richmond_station">11:00 am - 10:30 pm</string>
+
+
+</resources>
