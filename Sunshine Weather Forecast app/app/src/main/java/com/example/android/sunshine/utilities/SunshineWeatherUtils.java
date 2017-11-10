@@ -1,18 +1,4 @@
-/*
- * Copyright (C) 2016 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.example.android.sunshine.utilities;
 
 import android.content.Context;
@@ -43,11 +29,8 @@ public final class SunshineWeatherUtils {
     }
 
     /**
-     * Temperature data is stored in Celsius by our app. Depending on the user's preference,
-     * the app may need to display the temperature in Fahrenheit. This method will perform that
-     * temperature conversion if necessary. It will also format the temperature so that no
-     * decimal points show. Temperatures will be formatted to the following form: "21°"
-     *
+     *  This method will perform that
+     * temperature conversion if necessary.
      * @param context     Android Context to access preferences and resources
      * @param temperature Temperature in degrees Celsius (°C)
      *
@@ -61,7 +44,7 @@ public final class SunshineWeatherUtils {
 
         int temperatureFormatResourceId = R.string.format_temperature;
 
-        /* For presentation, assume the user doesn't care about tenths of a degree. */
+       
         return String.format(context.getString(temperatureFormatResourceId), temperature);
     }
 
@@ -105,10 +88,7 @@ public final class SunshineWeatherUtils {
             windSpeed = .621371192237334f * windSpeed;
         }
 
-        /*
-         * You know what's fun? Writing really long if/else statements with tons of possible
-         * conditions. Seriously, try it!
-         */
+        
         String direction = "Unknown";
         if (degrees >= 337.5 || degrees < 22.5) {
             direction = "N";
@@ -313,12 +293,7 @@ public final class SunshineWeatherUtils {
 
     /**
      * Helper method to provide the icon resource id according to the weather condition id returned
-     * by the OpenWeatherMap call. This method is very similar to
-     *
-     *   {@link #getLargeArtResourceIdForWeatherCondition(int)}.
-     *
-     * The difference between these two methods is that this method provides smaller assets, used
-     * in the list item layout for a "future day", as well as
+     * by the OpenWeatherMap call. 
      *
      * @param weatherId from OpenWeatherMap API response
      *                  See http://openweathermap.org/weather-conditions for a list of all IDs
