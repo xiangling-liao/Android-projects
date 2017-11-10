@@ -1,18 +1,4 @@
-/*
- * Copyright (C) 2016 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.example.android.sunshine.data;
 
 import android.content.ContentValues;
@@ -274,7 +260,7 @@ public class TestSunshineDatabase {
     }
 
     /**
->>>>>>> a6840f1... S07.03-Exercise-ConflictResolutionPolicy
+
      * Tests the columns with null values cannot be inserted into the database.
      */
     @Test
@@ -335,8 +321,6 @@ public class TestSunshineDatabase {
 
     /**
      * Tests to ensure that inserts into your database results in automatically
-     * incrementing row IDs.
->>>>>>> 4174cf2... S07.02-Exercise-PreventInvalidInserts
      */
     @Test
     public void testIntegerAutoincrement() {
@@ -447,20 +431,15 @@ public class TestSunshineDatabase {
      */
     @Test
     public void testCreateDb() {
-        /*
-         * Will contain the name of every table in our database. Even though in our case, we only
-         * have only table, in many cases, there are multiple tables. Because of that, we are
-         * showing you how to test that a database with multiple tables was created properly.
-         */
+       
         final HashSet<String> tableNameHashSet = new HashSet<>();
 
-        /* Here, we add the name of our only table in this particular database */
+        /*  add the name of our only table in this particular database */
         tableNameHashSet.add(REFLECTED_TABLE_NAME);
-        /* Students, here is where you would add any other table names if you had them */
 //        tableNameHashSet.add(MyAwesomeSuperCoolTableName);
 //        tableNameHashSet.add(MyOtherCoolTableNameThatContainsOtherCoolData);
 
-        /* We think the database is open, let's verify that here */
+        /*  think the database is open, let's verify that here */
         String databaseIsNotOpen = "The database should be open and isn't";
         assertEquals(databaseIsNotOpen,
                 true,
@@ -537,15 +516,10 @@ public class TestSunshineDatabase {
                 REFLECTED_TABLE_NAME,
                 /* Columns; leaving this null returns every column in the table */
                 null,
-                /* Optional specification for columns in the "where" clause above */
                 null,
-                /* Values for "where" clause */
                 null,
-                /* Columns to group by */
                 null,
-                /* Columns to filter by row groups */
                 null,
-                /* Sort order to return in Cursor */
                 null);
 
         /* Cursor.moveToFirst will return false if there are no records returned from your query */
