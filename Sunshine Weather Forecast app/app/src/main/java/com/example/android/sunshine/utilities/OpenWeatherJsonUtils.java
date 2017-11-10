@@ -1,18 +1,4 @@
-/*
- * Copyright (C) 2016 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.example.android.sunshine.utilities;
 
 import android.content.ContentValues;
@@ -63,16 +49,7 @@ public final class OpenWeatherJsonUtils {
     /**
      * This method parses JSON from a web response and returns an array of Strings
      * describing the weather over various days from the forecast.
-     * <p/>
-     * Later on, we'll be parsing the JSON into structured data within the
-     * getFullWeatherDataFromJson function, leveraging the data we have stored in the JSON. For
-     * now, we just convert the JSON into human-readable strings.
-     *
-     * @param forecastJsonStr JSON response from server
-     *
-     * @return Array of Strings describing weather data
-     *
-     * @throws JSONException If JSON data cannot be properly parsed
+     * 
      */
     public static ContentValues[] getWeatherContentValuesFromJson(Context context, String forecastJsonStr)
             throws JSONException {
@@ -106,15 +83,6 @@ public final class OpenWeatherJsonUtils {
         SunshinePreferences.setLocationDetails(context, cityLatitude, cityLongitude);
 
         ContentValues[] weatherContentValues = new ContentValues[jsonWeatherArray.length()];
-
-        /*
-         * OWM returns daily forecasts based upon the local time of the city that is being asked
-         * for, which means that we need to know the GMT offset to translate this data properly.
-         * Since this data is also sent in-order and the first day is always the current day, we're
-         * going to take advantage of that to get a nice normalized UTC date for all of our weather.
-         */
-//        long now = System.currentTimeMillis();
-//        long normalizedUtcStartDay = SunshineDateUtils.normalizeDate(now);
 
         long normalizedUtcStartDay = SunshineDateUtils.getNormalizedUtcDateForToday();
 
@@ -154,14 +122,7 @@ public final class OpenWeatherJsonUtils {
 
             weatherId = weatherObject.getInt(OWM_WEATHER_ID);
 
-            /*
-             * Temperatures are sent by Open Weather Map in a child object called "temp".
-             *
-             * Editor's Note: Try not to name variables "temp" when working with temperature.
-             * It confuses everybody. Temp could easily mean any number of things, including
-             * temperature, temporary variable, temporary folder, temporary employee, or many
-             * others, and is just a bad variable name.
-             */
+           
             JSONObject temperatureObject = dayForecast.getJSONObject(OWM_TEMPERATURE);
             high = temperatureObject.getDouble(OWM_MAX);
             low = temperatureObject.getDouble(OWM_MIN);
